@@ -62,6 +62,7 @@ public class userCheck extends HttpServlet {
                 Statement st = conn.createStatement();
                 String query="SELECT * FROM  User where userid='"+user+"'";
                 out.println("Query : "+query);
+                out.println("Query : "+query);
                 
                 
                 //PreparedStatement  preparedStatement=conn.prepareStatement("SELECT * FROM  usercheck where username=?") ;
